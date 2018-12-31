@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebCam jQuery and PHP script</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+	<style>
+		#camera_wrapper, #show_saved_img{float:left; width: 650px;}
+	</style>
+	
+	<script type="text/javascript" src="scripts/webcam.js"></script>
+	<script>
+		$(function(){
+			//give the php file path
+			webcam.set_api_url( 'saveimage2.php' );
+			webcam.set_swf_url( 'scripts/webcam.swf' );//flash file (SWF) file path
+			webcam.set_quality( 100 ); // Image quality (1 - 100)
+			webcam.set_shutter_sound( true ); // play shutter click sound
+			
+			var camera = $('#camera');
+			camera.html(webcam.get_html(600, 460)); //generate and put the flash embed code on page
+			
+			$('#capture_btn').click(function(){
+				//take snap
+				webcam.snap();
+				$('#show_saved_img').html('<h3>Please Wait...</h3>');
+
+			});
+			
+
+			//after taking snap call show image
+			webcam.set_hook( 'onComplete', function(img){
+				$('#show_saved_img').html('<img src="' + img + '">');
+				//reset camera for the next shot
+				
+				
+				webcam.reset();
+			});
+			
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="camera.css">
+</head>
+<body>
+	<h1><center><label>Take Snap Of Visitor</label> </center></h1>
+	<!-- camera screen -->
+	<div id="camera_wrapper">
+		<div id="camera"></div>
+		<br /><center>
+		<button id="capture_btn">Capture</button></center>
+	</div>
+	<!-- show captured image -->
+	<div id="show_saved_img" >
+	<div id="capture button">
+	<form action="saveimage2.php" method="post" enctype="multipart/form-data">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</form>
+	</div>
+	
+</body>
+</html>
+
+
+

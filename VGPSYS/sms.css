@@ -1,0 +1,90 @@
+body
+{
+	background:rgb(0,255,200);
+}
+label
+{
+	font-family:Times New Roman;
+	font-size:24px;
+	text-align:left;
+}
+.input
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Comic Sans MS;
+	font-size:24px;
+}
+.inputadd
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Comic Sans MS;
+	font-size:24px;
+}
+.inputadd:focus
+{
+   height:100px;
+}
+input[type=submit]
+ {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:rgb(0,255,150);
+  width: 100%;
+  border: 0;
+  border-radius:10px;
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+input[type=submit]:hover
+{
+	background: #4CAF50;
+	color:white;
+	cursor:pointer;
+}
+form 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 100px auto;
+  padding:50px;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.loginselect
+{
+	width:150px;
+	height:30px;
+	background:rgb(230,230,230);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: WHITE}
+
+th {
+    background-color: RED;
+    color: white;
+}

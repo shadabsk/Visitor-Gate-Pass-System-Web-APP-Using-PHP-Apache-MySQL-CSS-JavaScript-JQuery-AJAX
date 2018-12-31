@@ -1,0 +1,11 @@
+.passtable,td
+{
+	width:50px;
+	height:100px;
+    border: 1px solid black;
+}
+b
+{
+	font-size:18px;
+	font-family:Arial Black;
+}

@@ -1,0 +1,41 @@
+button
+{
+  margin:;
+  background: #4CAF50;
+  width: 140px;
+  border: 0;
+  border-radius:10px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family:"Monotype Corsiva";
+  cursor: pointer;
+}
+button:hover
+{
+		background:rgb(255,255,255);
+		color:black;
+}
+body
+{
+	background:rgb(0,0,0);
+	color:white;
+}
+label
+{
+	margin:auto;
+	font-family:Comic Sans MS;
+	border:1px solid white;
+	border-radius:5px;
+	padding:10px;
+	background:blue;
+}
+.pre
+{
+ 
+	font-family:Comic Sans MS;
+	border:1px solid white;
+	border-radius:5px;
+	padding:10px;
+	background: #4CAF50;
+ }

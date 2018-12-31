@@ -1,0 +1,556 @@
+
+
+/*Home Page Designing Content*/
+
+.homebody
+{
+	background:url("homebg.jpg");
+	background-repeat:no-repeat;
+	background-size:1440px 800px;
+}
+.homeup
+{
+	background-image:url("logo.jpg");
+	background-repeat:no-repeat;
+	background-size:800px 120px;
+	margin:auto;
+	width:1366px;
+	height:120px;
+	text-align:right;
+	font-family:Calibri;
+	background-color:rgb(0,255,170);
+}
+.homedown
+{
+	margin:auto;
+	height:620px;
+	width:1366px;
+	left:207px;
+	text-align:left;
+	color:black;
+	background-repeat:no-repeat;
+	background-size:1366px 620px;
+}
+.homebutton:hover
+{
+	color:Black;
+	background-color:rgb(0,190,150);
+}
+.homebutton:focus
+{
+	color:black;
+	background-color:rgb(0,200,150);
+}
+.homebutton
+{
+	width:115px;
+	text-align:center;
+	border:none;
+	font-family:"Calibri";
+	color:white;
+	background-color:rgb(0,255,170);
+	font-size:25px;
+	cursor:pointer;
+}
+.homeul
+{
+	list-style: square inside url("dot.jpg");
+	font-family:Lucida Calligraphy;
+	font-size:20px;
+	color:white;
+}
+.homehr
+{
+	height:5px;
+	width:1250px;
+	background-color:black;
+}
+
+/*Dashboard Designing Content*/
+.dashleft
+{
+	height:2000px;
+	width:200px;
+	background:black;
+}
+.dashright
+{
+	position:absolute;
+	height:2000px;
+	width:1600px;
+	left:207px;
+	//text-align:center;
+	background:rgb(0,255,170);
+}
+.dashh1
+{
+	font-family:Segoe Script;
+}
+.dashleftfont
+{
+	font-family:Arial;
+	font-color:white;
+	font-style:BOLD;
+	font-size:25px;
+}
+.dashbutton
+{
+	padding:10px;
+	width:198px;
+	background:black;
+	color:white;
+	text-align:left;
+	border:none;
+	font-family:"Arial Black";
+	font-size:14px;
+	cursor:pointer;
+}
+.dashbutton:hover
+{
+	
+	background:Black;
+	color:Red;
+	cursor:pointer;
+}
+.dashbutton:focus
+{
+	
+	background:Red;
+	color:Black;
+	cursor:pointer;
+}
+.dashhr
+{
+	float:left;
+	height:4px;
+	width:190px;
+	background-color:rgb(0,255,170);
+}
+/*-------------------------------------------------------------- Input Text Content -------------------------------------------------------------*/
+.input
+{
+    width: 200px;
+	height:30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Lucida Fax;
+	font-size:24px;
+}
+.inputadd
+{
+      width: 200px;
+	height:30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Comic Sans MS;
+	font-size:24px;
+}
+.inputadd:focus
+{
+   height:100px;
+}
+label
+{
+	font-family:Times New Roman;
+	font-size:24px;
+	text-align:left;
+}
+.showbutton
+{
+  margin:10px 500px;
+  background: #4CAF50;
+  width: 300px;
+  border: 0;
+  border-radius:20px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family:"Arial";
+  cursor: pointer;
+}
+.showbutton:hover
+{
+	background:white;
+	color:black;
+}
+.showselect
+{
+  
+  background: #4CAF50;
+  width: 70px;
+  
+  border: 0;
+  border-radius:10px;
+  padding: 6px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family:"Arial";
+  cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------------Login Form Content--------------------------------------------------------------*/
+.loginform 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin:5px auto 10px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.loginform1
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin:10px 360px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.loginform3
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin:10px 360px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.loginformupdateinc 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 1050px;
+  margin:-80px -360px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.loginhrupdateinc 
+{
+	height:5px;
+	width:1000px;
+	background-color:rgb(0,255,150);
+}
+}
+.logintextbox
+ {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Comic Sans MS;
+	font-size:24px;
+}
+.loginpass
+ {
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.loginsubmit
+ {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.loginpage {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: 10px auto 10px;
+}
+.loginselect
+{
+	width:150px;
+	height:30px;
+	background:rgb(230,230,230);
+}
+/*User Login*/
+.uloginbody
+{
+	 background:Green;
+}
+.uloginform 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding:10px;
+  text-align: center;
+  border:2 px solid Black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+}
+.ulogintextbox
+ {
+ outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.uloginpass
+ {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.uloginsubmit
+ {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.uloginpage 
+{
+  width: 360px;
+  padding: 11% 0 0;
+  margin: auto;
+}
+input[type=date]
+{
+	background-color:rgb(230,230,230);
+	height:30px;
+	width:170px;
+}
+
+/**Staff Entry*/
+.takephotobutton
+{
+  font-family: "Roboto", sans-serif;
+  background:rgb(220,220,220);
+  width: 150px;
+  height:100px;
+  border: 0;
+  color:black;
+  font-size: 24px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.takephotobutton:hover
+{
+	color:white;
+	background-color:rgb(0,190,150);
+}
+.smsbutton
+{
+	width:150px;
+	height:100px;
+	text-align:center;
+	border:none;
+	font-family:"Calibri";
+	color:black;
+  background:rgb(220,220,220);
+	font-size:25px;
+	cursor:pointer;
+}
+.smsbutton:hover
+{
+	color:White;
+	background-color:rgb(0,190,150);
+}
+
+/*contact Page*/
+.contact
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 1345px;
+  height:800px;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.contactfont
+{
+	font-family:"Comic Sans MS";
+}
+
+/*Feature Page*/
+.feature
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 1345px;
+  height:620px;
+  margin:auto;
+  padding:10px;
+  text-align: justify;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.featurehr
+{
+	height:5px;
+	width:1200px;
+	background-color:rgb(0,255,150);
+}
+.featurehr1
+{
+	height:5px;
+	width:1200px;
+	background-color:rgb(0,255,150);
+}
+.featurefont
+{
+	font-family:"Comic Sans MS";
+}
+.featuretable
+{
+	margin: auto 360px;
+	border-spacing:5px;
+	width:850px;
+}
+
+/*About US Page*/
+.about
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 1345px;
+  height:620px;
+  margin:auto;
+  padding:10px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.aboutul
+{
+	list-style: square inside url("dot.jpg");
+	font-family:Lucida Calligraphy;
+	font-size:20px;
+	color:black;
+}
+.abouthr
+{
+	height:5px;
+	width:1200px;
+	background-color:rgb(0,255,150);
+}
+.abouthr1
+{
+	height:5px;
+	width:270px;
+	background-color:rgb(0,0,0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: WHITE}
+
+th {
+    background-color: RED;
+    color: white;
+}
+.loginform2 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 1000px;
+  margin:20px 30px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.input:valid
+{
+	background-color:rgba(0,255,0,0.4);
+}
+.inputadd:valid
+{
+	background-color:rgba(0,255,0,0.4);
+}
+.labelpass
+{
+	font-family:Calibri;
+	font-size:18px;
+	text-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
