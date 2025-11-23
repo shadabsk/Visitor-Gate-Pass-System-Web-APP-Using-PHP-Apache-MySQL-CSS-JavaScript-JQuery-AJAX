@@ -70,13 +70,6 @@ Start using the web app by opening the url localhost/VGPSYS
 * [Notepad++](https://notepad-plus-plus.org/download/v7.6.1.html) - A free source code editor which supports several programming languages running under the MS Windows environment.
 
 
-## Demonstrations
-
-* Take a look at the working project demonstration. Click on the image to view the complete video
-
-
-[![VGPSYS](https://i.ytimg.com/vi/EegmfejhA88/maxresdefault.jpg)](https://youtu.be/EegmfejhA88)
-
 
 ## Authors
 
